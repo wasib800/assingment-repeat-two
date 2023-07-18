@@ -36,24 +36,17 @@
 p {
     color: rgb(151, 144, 144);
 }
-
-.carousel-inner {
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50vh;
-    width: 100%;
-    align-items: center;
-    margin-bottom: 25px;
+.c-item {
+    height: 380px;
 }
 
-.make-appointment-container{
-    display: flex;
-    background-color: rgb(62, 61, 60);
-   
-    border-radius: 15px;
-    margin-top: 25px ;
-    align-items: center;
-    justify-content: space-around;
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.2);
 }
+
+
+
 
 /* wrapsection */
