@@ -1,0 +1,57 @@
+
+/* navbar{
+    background-color: wheat;
+} */
+.background-image-part {
+    background-image: url(/images/banner.png), linear-gradient(rgba(103, 98, 81, 0.2),rgba(16, 15, 15, 0.9));
+    background-blend-mode: overlay;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+   color: white;
+   background-repeat: no-repeat;
+
+}
+
+.bnr-title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(243, 13, 13);
+    font-size: xx-large;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.input-filed{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: yellow;
+
+}
+
+p {
+    color: rgb(151, 144, 144);
+}
+
+.carousel-inner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.make-appointment-container{
+    display: flex;
+    background-color: rgb(62, 61, 60);
+   
+    border-radius: 15px;
+    margin-top: 25px ;
+    align-items: center;
+    justify-content: space-around;
+}
